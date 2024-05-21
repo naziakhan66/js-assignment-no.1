@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+
+//Q4
+    
+var ticketPrice = 600;
+     var numberOfTickets = 5;
+     var totalCost = ticketPrice * numberOfTickets;
+     document.write("The total cost to buy a tickest for movie" +totalCost)
+
+     
+     //Q5
+     var table = "<h2>Multiplication Table of 2</h2>";
+        table += "2 * 1 = 2<br>";
+        table += "2 * 2 = 4<br>";
+        table += "2 * 3 = 6<br>";
+        table += "2 * 4 = 8<br>";
+        table += "2 * 5 = 10<br>";
+        table += "2 * 6 = 12<br>";
+        table += "2 * 7 = 14<br>";
+        table += "2 * 8 = 16<br>";
+        table += "2 * 9 = 18<br>";
+        table += "2 * 10 = 20<br>";
+        document.write(table+"<br>")
+
+
+        //Q6
+
+        // Celsius to Fahrenheit conversion
+        var celsius = 30;
+        var fahrenheit = (celsius * 9 / 5) + 32;
+        var cToFOutput = celsius + "°C is " + fahrenheit + "°F";
+        document.write(cToFOutput+"<br>")
+
+        // Fahrenheit to Celsius conversion
+        var fahrenheit2 = 86;
+        var celsius2 = (fahrenheit2 - 32) * 5 / 9;
+        var fToCOutput = fahrenheit2 + "°F is " + celsius2 + "°C";
+        document.write(fToCOutput+"<br>" +"<br>") 
+
+
+        //Q9
+
+        var usDollars = 10;
+        var saudiRiyals = 25;
+
+        // Exchange rates
+        var usdToPkrRate = 104.80;
+        var sarToPkrRate = 28;
+
+        // Convert total currency to Pakistani Rupees
+        var totalPkr = (usDollars * usdToPkrRate) + (saudiRiyals * sarToPkrRate);
+
+        // Display the result
+        var result = "Total currency converted to Pakistani Rupees: " + totalPkr + " PKR";
+        document.write(result +"<br>"+"<br>") 
+
+      //Q8
+        
+
+        // Store total marks and marks obtained by the student
+        var totalMarks = 980;
+        var obtainedMarks = 804;
+
+        // Compute the percentage
+        var percentage = (obtainedMarks / totalMarks) * 100;
+
+        // Display the result
+
+
+document.write("Total Marks"+ totalMarks +"<br>"+ "Obtained Marks"+ obtainedMarks+"<br>"+
+    " The total percenatge is" + ""+  percentage );
+
+         
+    
+
+        
+
+    //Addition1
+
+         var num1=10;
+         var num2=5;
+         var add= num1+num2;
+         document.write(add + "<br>" + "<br>");
+
+         //Addition1
+         var add1 = 5;
+         add1 = add1 + 1;
+         document.write(add1+ "<br>" + "<br>")
+
+         //subtraction
+
+         var subt1 = 5;
+         add1 = subt1 + 1;
+         document.write(subt1+ "<br>" + "<br>")
+        
+         //multiply
+
+         var multiply = 3 * 4;
+
+         document.write(multiply + "<br>" + "<br>")
+
+         //Divide
+       var divide = 5 / 2;
+       document.write(divide+ "<br>" + "<br>")
+       
+       //Increment1
+       var value = 5;
+       value += 1; 
+       document.write(value + "<br>" + "<br>")
+     
+       //Increment2 
+       var value=5
+       var result= ++value
+       document.write(result + "<br>" + "<br>")
+       
+       //Increment3
+       var value=5
+       var result= value
+       document.write( ++result + "<br>" + "<br>")
+
+       //decrement1
+
+       var value = 5;
+       value -= 1; 
+       document.write(value + "<br>" + "<br>")
+     
+
+    //decrement2
+
+       var value=5
+       var result= --value
+       document.write(result + "<br>" + "<br>")
+
+//decrement3
+       var value=5
+       var result= value
+       document.write(--result + "<br>" + "<br>")
+
+       //division 
+       var divide= 2/10
+       document.write(divide + "<br>" + "<br>")
+
+       //Remainder 0
+       var dividend = 10;
+       var divisor = 2;
+       var remainder = dividend % divisor;
+       document.write(remainder + "<br>" + "<br>")
+
+       //Q7
+
+       var priceOfItem1 = 650; // Example price of item 1
+       var priceOfItem2 = 100; // Example price of item 2
+       var quantityOfItem1 = 3; // Example quantity of item 1 ordered
+       var quantityOfItem2 = 7; // Example quantity of item 2 ordered
+       var shippingCharges = 100; // Example shipping charges
+
+// Calculating total cost
+var totalCost = (priceOfItem1 * quantityOfItem1) + (priceOfItem2 * quantityOfItem2) + shippingCharges
+document.write(totalCost + "<br>" + "<br>")
+
+
+//Q8
+
+var totalMarks = 980; // Example total marks
+var marksObtained = 804; // Example marks obtained by the student
+
+// Calculating the percentage
+var percentage = (marksObtained / totalMarks) * 100;
+document.write(percentage + "<br>" + "<br>" )
+
+
+//Q10
+
+// Initialize a variable with some number
+var number = 10;
+
+// Perform arithmetic operations in a single expression
+var result = (((number + 5) * 10) / 2);
+
+document.write("Result:", result + "<br>" + "<br>");
+
+//Q11
+
+// Store the current year and birth year in variables
+var currentYear = 2024; // Example: current year
+var birthYear = 1992;   // Example: birth year
+
+// Calculate the two possible ages
+var age = currentYear - birthYear;
+
+
+// Update the HTML to show the possible ages
+document.write(age +"Age" + "<br>" + "<br>")
+
+
+
+
+//Q13
+
+// Store favorite snack, current age, maximum age, and estimated amount per day
+var favoriteSnack = "chocolate chip"; // Example: favorite snack
+var currentAge = 15; // Example: current age
+var maximumAge = 65; // Example: maximum age
+var amountPerDay = 3; // Example: estimated amount per day
+
+// Calculate the total needed for the rest of your life
+var yearsRemaining = maximumAge - currentAge;
+var totalNeeded = yearsRemaining  * amountPerDay;
+
+
+// Update the HTML to show the result
+document.write(totalNeeded)
+
+
+
+   </script> 
+</body>
+</html>
